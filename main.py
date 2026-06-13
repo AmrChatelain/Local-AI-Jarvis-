@@ -26,7 +26,7 @@ _warnings.filterwarnings("ignore", category=UserWarning)
 _warnings.filterwarnings("ignore", category=DeprecationWarning)
 _warnings.filterwarnings("ignore", category=FutureWarning)
 # ───────────────────────────────────────────────────────────────────────────
-
+ 
 # ── Bootstrap: auto-install base UI packages before anything else ──────────
 # Uses only stdlib so it works even on a completely fresh Python install.
 import importlib.util as _ilu
